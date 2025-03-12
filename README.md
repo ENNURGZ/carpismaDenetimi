@@ -21,6 +21,16 @@
  
   Çarpışma Denetimi: Çarpışma denetimi butonu ile, seçili şekiller arasında çarpışma olup olmadığı kontrol edilir ve sonuç kullanıcıya bildirilir.
 
+ ### Sınıf Hiyerarşisi ve İlişkiler
+ Proje, bir dizi sınıf tanımını içerir. Bu sınıflar, geometrik nesneleri temsil eder ve bir nesneler genel sınıfından türetilmiştir. Her sınıf, geometrik şekillerin özelliklerini (x, y, z koordinatları, genişlik, yükseklik, derinlik, yarıçap) ve çizim için gerekli metodları içerir.
+ 
+ ### Genel nesneler Sınıfı
+  Temel geometrik özelliklerin tanımlandığı ana sınıf.
+  Koordinatlar, boyutlar ve diğer özellikler bu sınıfta tanımlanır.
+ 
+ Diğer tüm geometrik şekiller bu sınıftan türetilir.
+ 
+
  ### ÇIKTILAR
  
 ![image](https://github.com/user-attachments/assets/d5252dad-6e76-4c2a-8064-693f163ee520)
